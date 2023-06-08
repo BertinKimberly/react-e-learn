@@ -101,9 +101,59 @@ a:active{
 .sub{
     display: flex;
     align-items: center;
+    flex-direction: column;
     justify-content: center;
     width: 100vw;
     height: 20vh;
+}
+.subscribe-form{
+    padding: 10px;
+}
+.subscribe-form input{
+    width: 400px;
+    height: 40px;
+    padding-left: 20px ;
+    border: none;
+    outline: 1px solid green;
+    border-radius: 20px;
+}
+.subscribe-form button{
+    height: 30px;
+    border-radius: 15px;
+    margin-left: -90px;
+    border: none;
+    background-color: rgb(9, 145, 81);
+    color: #fff;
+    padding: 2px 6px;
+   
+}
+/* footer */
+.row-footer{
+    height: 50vh;
+    background-color: #c1bebe96;
+}
+.col{
+    justify-content: flex-start;
+}
+.col span{
+    margin: 0 10px;
+}
+.col{
+    align-items: start;
+    padding: 10px;
+
+}
+.row-footer {
+    position: relative;
+}
+.copy-right{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    bottom: 0;
+    left: 0;
+    right: 0;
 }
 @media screen and (max-width:992px) {
   .row{
